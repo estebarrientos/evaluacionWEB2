@@ -1,60 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  
-  <title>Esteban Barrientos</title>
-</head>
+    <title>Esteban Barrientos</title>
+  </head>
 
-<body>
-  <!---Nav bar inicio-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reseña</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Spotify</a>
-          </li>
-        </ul>
+  <body>
+    <div id="inicio">
+      <!---Nav bar inicio-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reseña</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Spotify</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Nav bar fin-->
+
+      <!--Fondo inicio-->
+      <div class="background">
+        <img src="img/Esteban2.jpg" class="img-fluid" alt="Esteban" />
+      </div>
+      <div class="heading-content text-center">
+        <h5>Hola, Soy</h5>
+        <h1>Esteban Barrientos</h1>
+        <p>Y ESTE ES MI MUNDO</p>
       </div>
     </div>
-  </nav>
-  <!--Nav bar fin-->
 
-  <!--Fondo inicio-->
-  <div class="background">
-    <img src="img/esteban1.png" class="img-fluid" alt="Esteban">
-  </div>
-  <div class="heading-content text-center">
-    <h5>Hola, Soy</h5>
-    <h1>Esteban Barrientos</h1>
-    <p>Y ESTE ES MI MUNDO</p>
-  </div>
+    <!--Fondo Fin-->
 
+    <!--Reseña Inicio-->
+    <div id="resena" class="container mt-3 pb-5">
+      <div class="post-heading text-center pb-5" >
+        <h3 class="display-4 font-weight-bold">Reseña</h3>
+        <hr class="w-50 mx-auto" />
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="img/esteban1.png" alt="Esteban" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2>¿Quién soy yo?</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed est at
+            harum veniam illum. Voluptatibus vero harum amet nostrum quasi
+            mollitia temporibus, optio, cupiditate provident quia minus
+            architecto, ipsam earum?
+          </p>
+          <button class="btn">
+            <a href="#">¿Quieres saber más?</a>
+          </button>
+        </div>
+      </div>
+    </div>
 
-  <!--Fondo Fin-->
+    <!--Reseña FIn-->
+    <!--Portafolio inicio-->
+    <div id="portafolio"></div>
+    <!--Portafolio fin-->
+    <!--Contacto inicio-->
+    <div id="contacto"></div>
+    <!--Contacto fin-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

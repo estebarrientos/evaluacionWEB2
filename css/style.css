@@ -11,7 +11,7 @@ body{
 
 .navbar{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2rem;
     background: rgba(0, 0,0,0.6)!important;
@@ -56,4 +56,28 @@ color:#1ebba3;
     word-spacing: 5px;
     letter-spacing: 2px;
     font-family: monospace;
+}
+
+#resena .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#resena .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#resena .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+    
 }
