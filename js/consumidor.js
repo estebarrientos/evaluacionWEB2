@@ -1,15 +1,9 @@
-//pasos para configurar el consumidor API
-//1. COnocer la url endpoint
 
 let urlGET ="https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm/top-tracks?market=US";
 
-//definir variables auxiliares
 
-//1.1.1 identificar o referenciar la url del servicio que nos entregará el token
 let urlPOST="https://accounts.spotify.com/api/token";
 
-
-//i.1.2 Definición de Parámetros
 let llave1="grant_type=client_credentials";
 let llave2="client_id=c5d6dd91901146d69cb08249eaebe487";
 let llave3="client_secret=e97d2ceff49c4902bcf87743cafe37f6";
@@ -21,7 +15,6 @@ let parametrosPOST={
 
 }
 
-//1.1.3 usar fetch para comunicarnos con API
 fetch(urlPOST, parametrosPOST)
     .then(respuesta=>respuesta.json())
     .then(datos=>obtenerToken(datos));
