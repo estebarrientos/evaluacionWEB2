@@ -377,9 +377,8 @@
         <hr class="w-50 mx-auto" />
       </div>
       <form
-        action="mailto:estebarrientos@gmail.com?subject=Email%20Subject&body=Email%20body%20Text"
-        method="get"
-        enctype="text/plain"
+      action="https://formspree.io/f/mnqowjow"
+      method="POST"
       >
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -391,6 +390,7 @@
           <label for="exampleInputEmail1" class="form-label">Email:</label>
           <input
             type="email"
+            name="_replyto"
             class="form-control"
             id="Email"
             aria-describedby="emailHelp"
@@ -402,7 +402,7 @@
           >
           <textarea
             class="form-control"
-            name="mensaje"
+            name="message"
             id="body"
             cols="30"
             rows="10"
