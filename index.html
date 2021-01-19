@@ -374,7 +374,7 @@
         <hr class="w-50 mx-auto" />
       </div>
       <form
-        action="mailto:estebarrientos@gmail.com"
+        action="mailto:estebarrientos@gmail.com?subject=Email%20Subject&body=Email%20body%20Text"
         method="get"
         enctype="text/plain"
       >
@@ -382,14 +382,14 @@
           <label for="exampleInputEmail1" class="form-label"
             >Nombre y Apellido:</label
           >
-          <input type="text" class="form-control" id="nombreApellido" />
+          <input type="text" class="form-control" id="Subject" />
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email:</label>
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
+            id="Email"
             aria-describedby="emailHelp"
           />
         </div>
@@ -400,7 +400,7 @@
           <textarea
             class="form-control"
             name="mensaje"
-            id=""
+            id="body"
             cols="30"
             rows="10"
           ></textarea>
